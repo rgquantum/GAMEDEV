@@ -6,6 +6,75 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/INTRO SCENE/MAIN MENU.unity
+    guid: b65f43c5e3efde74daf8aea174d4d54d
+  - enabled: 1
+    path: Assets/INTRO SCENE/CINEMATICS.unity
+    guid: 635c9c2ec44b2084e9d77d8e6bf5148b
+  - enabled: 1
+    path: Assets/GAME SCENE/PLAYER IDLE LOOP P1 1.unity
+    guid: 8d525b82156a42041b8de85dd5f8d4f4
+  - enabled: 1
+    path: Assets/GAME SCENE/PLAYER IDLE LOOP P2.unity
+    guid: cfd4e16d931f01b45979f9049722a0a4
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/HIGHPUNCH HIT.unity
+    guid: 52fdb35373a859845851ee5f5f45bd17
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/HIGHPUNCH MISS.unity
+    guid: 039de6ad24c0dd047a17272b9b3ccd8d
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/LOW PUNCH HIT.unity
+    guid: da06917ee248c29419170175a546f3cb
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/LOW PUNCH MISS.unity
+    guid: e35d2139d3ed72a42a0932ae9fc63f44
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/HIGH KICK HIT.unity
+    guid: 135171aa2a2298249ad0b678a2b2bfd4
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/HIGH KICK MISS.unity
+    guid: 357968cc25795554694615da8947cad4
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/LOW KICK HIT.unity
+    guid: cf1a159966fe3a04c8ae9a8f498480f3
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/LOW KICK MISS.unity
+    guid: 949d23c6feaeed54ca1e026fbcd179b1
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/ULTIMATE P1.unity
+    guid: da11e6feff83e5c488b351b90637125b
+  - enabled: 1
+    path: Assets/GAME SCENE/P1/ULTIMATE P1 MISS.unity
+    guid: 84ddf779fb5e7354d9928bda783b35a7
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/HIGH KICK HIT P2.unity
+    guid: 5947e76713e788b45adb079cf276d716
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/HIGH KICK MISS P2.unity
+    guid: f13180d3f9883514ba4f2a1dc7015e75
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/HIGHPUNCH HIT P2.unity
+    guid: ec2e44f6ee4b3e746845d9eedead95ab
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/HIGHPUNCH MISS P2.unity
+    guid: cdb7f0ddf9be96942852747f47b37739
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/LOW KICK HIT P2.unity
+    guid: 83dc9c864e077234dba1244837ed3c98
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/LOW KICK MISS P2.unity
+    guid: eb0329bec9ae2c64ba195efc053573ff
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/LOW PUNCH HIT P2.unity
+    guid: eb5762ae1f7214044b221b012d540d45
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/LOW PUNCH MISS P2.unity
+    guid: a6b019fa701c7de42bf1624fcbcc2317
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/ULTIMATE P2 MISS.unity
+    guid: 3f9ed6e36c89b55498d982a7a77d9b00
+  - enabled: 1
+    path: Assets/GAME SCENE/P2/ULTIMATE P2.unity
+    guid: ce721e454ca7c364aa854c86402c5475
   m_configObjects: {}
