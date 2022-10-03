@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class healthbar : MonoBehaviour
+public class healthbar1 : MonoBehaviour
 {
     public GameObject health;
-    private Image Healthbar1;
-    public float p1healthb;
-    public float p1maxh;
+    private Image Healthbar2;
+    public float p2healthb;
+    public float p2maxh;
     GameManager Script1;
 
     private void Awake() 
@@ -22,5 +22,8 @@ public class healthbar : MonoBehaviour
 
    }
 
-
+   private void Update() 
+   {
+    
+   }
 }

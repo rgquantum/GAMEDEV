@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6963856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 436, y: 190, z: 0}
+  m_LocalPosition: {x: 436, y: 191, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EDUARDO VS FLORENTINO
+  m_text: SUNTUKAN SA KALSADA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1180,10 +1180,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c6dae2f8f17ca42b8a171118361d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  p1max: 0
+  p2max: 0
   p1health: 0
   p2health: 0
-  textDisplay: {fileID: 0}
-  healtnotification: {fileID: 0}
+  rand: 0
+  health: {fileID: 0}
 --- !u!114 &833084446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1585,8 +1587,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -0.0011444}
-  m_SizeDelta: {x: 1920, y: 842.56}
+  m_AnchoredPosition: {x: -0.00010418, y: 3.6491}
+  m_SizeDelta: {x: 1920, y: 849.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326087852
 MonoBehaviour:
@@ -1626,6 +1628,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326087850}
   m_CullTransparentMesh: 1
+--- !u!1 &1335912938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1335912940}
+  - component: {fileID: 1335912939}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1335912939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335912938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c6dae2f8f17ca42b8a171118361d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p1max: 0
+  p2max: 0
+  p1health: 0
+  p2health: 0
+  rand: 0
+  health: {fileID: 0}
+--- !u!4 &1335912940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335912938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 429.62558, y: 180.32149, z: 0.82287467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1522659089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,7 +2201,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2243,7 +2295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c6dae2f8f17ca42b8a171118361d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  p1max: 0
+  p2max: 0
   p1health: 0
   p2health: 0
-  textDisplay: {fileID: 0}
-  healtnotification: {fileID: 0}
+  rand: 0
+  health: {fileID: 0}

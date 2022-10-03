@@ -7,16 +7,18 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+
     public float p1health;
     public float p2health;
+    public float p1max;
+    public float p2max;
     public int rand;
-    public GameObject health;
+    private Image Healthbar1;
 
-
-    void Start()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
+    private void Update() 
+   {
+        Healthbar1.fillAmount = p1health / p1max;
+   }
 
     public void P2turn()
     {
@@ -30,24 +32,24 @@ public class GameManager : MonoBehaviour
 
     public void setp1HP100()
     {
-        p1health = 100f;
+        p1max = 100f;
         Debug.Log("Player 1 set Health to 100");
     }
 
     public void setp2HP100()
     {
-        p2health = 100f;
+        p2max = 100f;
         Debug.Log("Player 2 set Health to 100");
     }
 
     public void setp1HP50()
     {
-        p1health = 50f;
+        p1max = 50f;
         Debug.Log("Player 1 set Health to 50");
     }
     public void setp2HP50()
     {
-        p2health = 50f;
+        p2max = 50f;
         Debug.Log("Player 2 set Health to 50");
     }
 
@@ -58,18 +60,17 @@ public class GameManager : MonoBehaviour
 
     public void setp2HP100text()
     {
-        p2health = 100f;
-        Debug.Log("Player 2 set Health to 100");
+
     }
 
     public void setp1HP50text()
     {
-        p1health = 50f;
+        p1max = 50f;
         Debug.Log("Player 1 set Health to 50");
     }
     public void setp2HP50text()
     {
-        p2health = 50f;
+        p2max = 50f;
         Debug.Log("Player 2 set Health to 50");
     }
 
