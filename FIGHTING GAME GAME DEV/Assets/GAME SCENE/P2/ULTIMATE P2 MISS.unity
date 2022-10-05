@@ -400,6 +400,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   p1health: 0
   p2health: 0
+  p1max: 0
+  p2max: 0
   rand: 0
 --- !u!1 &742682164
 GameObject:
@@ -439,7 +441,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000033379, y: 0.000030517578}
-  m_SizeDelta: {x: 346.095, y: 71.224}
+  m_SizeDelta: {x: 580, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742682166
 MonoBehaviour:
@@ -517,8 +519,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3b960b341f38020468b13a2750e96610, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
